@@ -8,12 +8,12 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : Ryan Abbott's Blog
 tagline: Site Tagline
 author :
-  name : Name Lastname
+  name : Ryan Abbott
   email : blah@email.test
-  github : username
+  github : r-abbott
   twitter : username
   feedburner : feedname
 
