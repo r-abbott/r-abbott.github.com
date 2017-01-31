@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Setting up Git on Synology Diskstation"
-tagline: Adventures in Software
 date: 2017-01-30 20:15 UTC
 tags: [git,synology,ssh]
 ---
