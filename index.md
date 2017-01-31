@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
+title: Ryan's Blog
+tagline: Adventures in Software
 ---
-<div class="blog-index">  
-  {% assign post = site.posts.first %}
-  {% assign content = post.content %}
-  {% include post_detail.html %}
-</div>
+{% include JB/setup %}
+{% include index.html%}
+
