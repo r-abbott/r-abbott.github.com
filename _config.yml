@@ -9,13 +9,13 @@ highlighter: rouge
 # so be sure to set them if your theme uses them.
 #
 title : Ryan Abbott's Blog
-tagline: Site Tagline
+tagline: 
 author :
   name : Ryan Abbott
-  email : blah@email.test
+#  email : blah@email.test
   github : r-abbott
-  twitter : username
-  feedburner : feedname
+#  twitter : username
+#  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
