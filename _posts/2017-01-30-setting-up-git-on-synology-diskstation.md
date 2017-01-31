@@ -21,11 +21,11 @@ I followed this helpful guide found [here](http://blog.netgloo.com/2015/04/20/gi
 For the next steps I used PuTTY since I'm on Windows, but you can use Terminal instead if you're on Linux.
 Add shared repository 
 
-{% highlight shell %}
+'''shell
 $ ssh <adminuser>@diskstation -p <port>
 $ cd /volume1/git
 $ git init --bare --shared <projectname>.git
-{% endhighlight %}
+'''
 
 I installed [Git for Windows](https://git-scm.com/downloads)
 - since I had a project already on my local pc, I just had to do the following
