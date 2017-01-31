@@ -3,14 +3,12 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+paginate: 10
 highlighter: rouge
 
 markdown: kramdown
 
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
+gems: [jekyll-paginate]
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -34,7 +32,7 @@ author :
 #
 production_url : http://r-abbott.github.io
 
-gems: ["jekyll-sitemap"]
+gems: ["jekyll-sitemap", "jekyll-paginate"]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
