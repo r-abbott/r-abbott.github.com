@@ -2,7 +2,7 @@
 layout: post
 title: "Setting up Git on Synology Diskstation"
 description: ""
-category: 
+date: 2017-01-30 20:15 UTC
 tags: [git,synology,ssh]
 ---
 {% include JB/setup %}
