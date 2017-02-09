@@ -10,7 +10,6 @@ markdown: kramdown
 # Filtering Content
 show_drafts: null
 limit_posts: 0
-future:      false
 unpublished: false
 
 # Themes are encouraged to use these universal variables 
