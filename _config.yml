@@ -7,10 +7,6 @@ paginate: 10
 timezone: Etc/UTC
 
 markdown: kramdown
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-unpublished: false
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
