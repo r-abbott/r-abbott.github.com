@@ -8,7 +8,7 @@ tags: [.Net Core, Services, C#]
 
 .Net Core made setting up your application much easier with the Startup.cs file. In Startup.cs, you can configure your services, IoC, logging, Exception Handling - all in one file.
 
-[Startup File](assets/2017-02-20/Startup.png)
+![Startup File]({{ siteurl }}/assets/2017-02-20/Startup.png)
 
 As the application grows over time, this file can become more and more difficult to maintain. At this point you will want to break out some of this code into separate files.
 
@@ -18,7 +18,7 @@ Thankfully, you can use the same pattern that is used to configure the applicati
 
 Make your own IServiceCollection extension, and move your services there:
 
-``` c#
+```c#
 // MyServicesConfiguration.cs
 public static class MyServicesConfiguration
     {
@@ -32,7 +32,7 @@ public static class MyServicesConfiguration
 
 Now the Startup method can simply use your new extension, like so.
 
-``` c#
+```c#
 // Startup.cs
 public void ConfigureServices(IServiceCollection services)
     {
@@ -46,7 +46,8 @@ public void ConfigureServices(IServiceCollection services)
 
 The same can be done for the Configure method, roll your own extension and clean this class up.
 
-``` c#
+```c#
+// MyApplicationBuilder.cs
 public static class MyApplicationBuilder
     {
         public static IApplicationBuilder UseMyCustomConfiguration(this IApplicationBuilder app)
@@ -58,4 +59,11 @@ public static class MyApplicationBuilder
     }
 ``` 
 
+```c#
+// Startup.cs 
+public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+    {
+        app.UseMyCustomConfiguration();
+    }
+```
 While this example was basic, it can used to further separate configuration sections based on whatever you need, such as separate modules, domains, etc.
