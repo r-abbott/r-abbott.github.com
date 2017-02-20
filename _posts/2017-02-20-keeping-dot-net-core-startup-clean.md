@@ -8,7 +8,7 @@ tags: [.Net Core, Services, C#]
 
 .Net Core made setting up your application much easier with the Startup.cs file. In Startup.cs, you can configure your services, IoC, logging, Exception Handling - all in one file.
 
-![Startup File]({{ site.url }}/assets/2017-02-20/Startup.PNG)
+![Startup File]({{ site.url }}/assets/2017-02-20/Startup.PNG =250x)
 
 As the application grows over time, this file can become more and more difficult to maintain. At this point you will want to break out some of this code into separate files.
 
