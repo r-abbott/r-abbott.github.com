@@ -2,7 +2,7 @@
 layout: post
 title: "Keeping .Net Core Startup Clean"
 date: 2017-02-20 18:00:00 UTC
-tags: [.Net Core, Services, C#]
+tags: [.Net Core, Services, C#, Configuration]
 ---
 {% include JB/setup %}
 
