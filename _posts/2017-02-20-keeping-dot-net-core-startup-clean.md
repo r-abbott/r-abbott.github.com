@@ -6,9 +6,11 @@ tags: [.Net Core, Services, C#]
 ---
 {% include JB/setup %}
 
-.Net Core made setting up your application much easier with the Startup.cs file. In Startup.cs, you can configure your services, IoC, logging, Exception Handling - all in one file.
+.Net Core made many things easier for developers, one of which is configuring the application. Setting up your application is much easier with the Startup.cs file.
 
-<img src="{{ site.url }}/assets/2017-02-20/Startup.PNG" alt="Startup File" style="width: 200px;"/>
+In Startup.cs, you can configure your services, IoC, logging, Exception Handling - all in one file.
+
+<img src="{{ site.url }}/assets/2017-02-20/Startup.PNG" alt="Startup File" style="width: 600px;"/>
 
 As the application grows over time, this file can become more and more difficult to maintain. At this point you will want to break out some of this code into separate files.
 
