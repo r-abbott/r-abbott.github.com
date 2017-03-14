@@ -20,7 +20,7 @@ Thankfully, you can use the same pattern that is used to configure the applicati
 
 Make your own IServiceCollection extension, and move your services there:
 
-```c#
+{% highlight c# %}
 // MyServicesConfiguration.cs
 public static class MyServicesConfiguration
     {
@@ -30,11 +30,11 @@ public static class MyServicesConfiguration
             return services;
         }
     }
-```
+{% endhighlight %}
 
 Now the Startup method can simply use your new extension, like so.
 
-```c#
+{% highlight c# %}
 // Startup.cs
 public void ConfigureServices(IServiceCollection services)
     {
@@ -42,13 +42,13 @@ public void ConfigureServices(IServiceCollection services)
         services.AddMvc();
         services.AddMyServices();
     }
-```
+{% endhighlight %}
 
 ### Configure
 
 The same can be done for the Configure method, roll your own extension and clean this class up.
 
-```c#
+{% highlight c# %}
 // MyApplicationBuilder.cs
 public static class MyApplicationBuilder
     {
@@ -59,13 +59,13 @@ public static class MyApplicationBuilder
             return app;
         }
     }
-``` 
+{% endhighlight %} 
 
-```c#
+{% highlight c# %}
 // Startup.cs 
 public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
     {
         app.UseMyCustomConfiguration();
     }
-```
+{% endhighlight %}
 While this example was basic, it can used to further separate configuration sections based on whatever you need, such as separate modules, domains, etc.

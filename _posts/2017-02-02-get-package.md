@@ -8,9 +8,9 @@ tags: [NuGet,Nuget Package Manager Console]
 
 I had to get a list of all 3rd party packages for a security audit. After a quick Google of how to export the Solution packages, I found in the NuGet Package Manager Console there is a command:
 
-```
+{% highlight bash%}
 Get-Package
-```
+{% endhighlight %}
 
 Which lists all of the Packages, nicely formatted with Id, Version, and Description/Release Notes.
 
