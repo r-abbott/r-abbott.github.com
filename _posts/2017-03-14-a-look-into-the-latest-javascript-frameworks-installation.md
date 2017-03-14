@@ -14,8 +14,6 @@ This is a multi-part post that will take a look into the latest Javascript frame
 
 This post will cover the process of installing and creating an application with the frameworks.
 
-<h3>Installation</h3>
-
 <h4>Angular 2</h4>
 Angular 2 has two recommended installation paths. There is a starter project called [Angular Quickstart Seed](https://angular.io/docs/ts/latest/guide/setup.html) that can be used as a base to start your project, as well as an [Angular CLI Quickstart](https://angular.io/docs/ts/latest/cli-quickstart.html). Creating a new project using the seed is faster than using the CLI (by about a minute), as it has the npm packages already in place, while creating a new project using the CLI has to install all the packages.
 
@@ -23,20 +21,22 @@ Angular 2 has two recommended installation paths. There is a starter project cal
 The Seed requires you to have Node.js 4.x.x or higher and npm 3.x.x or higher.
 
 If you have Git installed and are comfortable using it, you can clone the quickstart using the following:
-``` highlight bash
+
+```highlight bash
 git clone https://github.com/angular/quickstart.git quickstart
 cd quickstart
 npm install
 ```
 
 Alternatively, you can [download a zip file](https://github.com/angular/quickstart/archive/master.zip), and after unzipping, install it with the following:
-``` highlight bash
+
+```highlight bash
 cd quickstart
 npm install
 ```
 
 After completing the installation, you can run the application and see it in your browser using:
-``` highlight bash
+```highlight bash
 npm start
 ```
 
@@ -46,17 +46,17 @@ Requires you to have Node.js 6.9.x or higher and npm 3.x.x or higher.
 Similar to the Quickstart Seed, you can either install using npm or [download a zip file](https://angular.io/resources/zips/cli-quickstart/cli-quickstart.zip).
 
 Using npm, the following will install angular globally:
-``` highlight bash
+```highlight bash
 npm install -g @angular/cli
 ```
 
 After installing either via the zip or npm, you can create a new application using:
-``` highlight bash
+```highlight bash
 ng new my-project
 ```
 
 And run the application and see it in your browser using:
-``` highlight bash
+```highlight bash
 cd my-project
 ng serve --open
 ```
@@ -66,17 +66,17 @@ Aurelia [installation](http://aurelia.io/hub.html#/doc/article/aurelia/framework
 Aurelia currently requires NodeJs 4.x or higher, npm 3.x and a Git Client.
 
 Installing Aurelia globally can be done with the following command:
-``` highlight bash
+```highlight bash
 npm install -g aurelia-cli
 ```
 
 Creating an application is done via a wizard, which can be run using:
-``` highlight bash
+```highlight bash
 au new
 ```
 
 After completing the wizard installation, the application can be run and seen in your browser using:
-``` highlight bash
+```highlight bash
 au run
 ```
 
@@ -84,17 +84,17 @@ au run
 React [installation](https://facebook.github.io/react/docs/installation.html).
 
 In order to create React applications, Create React needs to be installed using npm:
-``` highlight bash
+```highlight bash
 npm install -g create-react-app
 ```
 
 Once installation is complete, you can create a new application using (this may take a few minutes):
-``` highlight bash
+```highlight bash
 create-react-app hello-world
 ```
 
 And run the application and see it in your browser using:
-``` highlight bash
+```highlight bash
 cd hello-world
 npm start
 ```
@@ -103,24 +103,24 @@ npm start
 Vue [installation](https://vuejs.org/v2/guide/installation.html). View can be installed generally or with the CLI.
 
 General installation
-``` highlight bash
+```highlight bash
 npm install vue
 ```
 CLI Installation
-``` highlight bash
+```highlight bash
 npm install -g vue-cli
 ```
 
 Creating a new application via the CLI is done by running the installation wizard. It will take you through several steps to configure the application:
 (Note: this example uses the webpack template, other templates are also available and can be found [here](https://github.com/vuejs-templates))
-``` highlight bash
+```highlight bash
 vue init webpack my-project
 cd my-project
 npm install
 ```
 
 Run the application and see it in your browser using:
-``` highlight bash
+```highlight bash
 npm run dev
 ```
 
