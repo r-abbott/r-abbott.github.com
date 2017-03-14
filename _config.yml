@@ -107,7 +107,7 @@ JB :
     provider : true
     # gauges :
     #     site_id : ''
-    google : 
+    googleUA:
         tracking_id : 'UA-93664954-1'
     # getclicky :
     #   site_id : 
