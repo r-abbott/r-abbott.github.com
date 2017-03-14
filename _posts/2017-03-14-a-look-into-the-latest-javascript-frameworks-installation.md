@@ -22,23 +22,23 @@ The Seed requires you to have Node.js 4.x.x or higher and npm 3.x.x or higher.
 
 If you have Git installed and are comfortable using it, you can clone the quickstart using the following:
 
-```bash
+{% highlight bash %}
 git clone https://github.com/angular/quickstart.git quickstart
 cd quickstart
 npm install
-```
+{% endhighlight %}
 
 Alternatively, you can [download a zip file](https://github.com/angular/quickstart/archive/master.zip), and after unzipping, install it with the following:
 
-```bash
+{% highlight bash %}
 cd quickstart
 npm install
-```
+{% endhighlight %}
 
 After completing the installation, you can run the application and see it in your browser using:
-```bash
+{% highlight bash %}
 npm start
-```
+{% endhighlight %}
 
 <h5>Angular CLI Quickstart</h5>
 Requires you to have Node.js 6.9.x or higher and npm 3.x.x or higher.
@@ -46,83 +46,83 @@ Requires you to have Node.js 6.9.x or higher and npm 3.x.x or higher.
 Similar to the Quickstart Seed, you can either install using npm or [download a zip file](https://angular.io/resources/zips/cli-quickstart/cli-quickstart.zip).
 
 Using npm, the following will install angular globally:
-```bash
+{% highlight bash %}
 npm install -g @angular/cli
-```
+{% endhighlight %}
 
 After installing either via the zip or npm, you can create a new application using:
-```bash
+{% highlight bash %}
 ng new my-project
-```
+{% endhighlight %}
 
 And run the application and see it in your browser using:
-```bash
+{% highlight bash %}
 cd my-project
 ng serve --open
-```
+{% endhighlight %}
 
 <h4>Aurelia</h4>
 Aurelia [installation](http://aurelia.io/hub.html#/doc/article/aurelia/framework/latest/contact-manager-tutorial/1).
 Aurelia currently requires NodeJs 4.x or higher, npm 3.x and a Git Client.
 
 Installing Aurelia globally can be done with the following command:
-```bash
+{% highlight bash %}
 npm install -g aurelia-cli
-```
+{% endhighlight %}
 
 Creating an application is done via a wizard, which can be run using:
-```bash
+{% highlight bash %}
 au new
-```
+{% endhighlight %}
 
 After completing the wizard installation, the application can be run and seen in your browser using:
-```bash
+{% highlight bash %}
 au run
-```
+{% endhighlight %}
 
 <h4>React</h4>
 React [installation](https://facebook.github.io/react/docs/installation.html).
 
 In order to create React applications, Create React needs to be installed using npm:
-```bash
+{% highlight bash %}
 npm install -g create-react-app
-```
+{% endhighlight %}
 
 Once installation is complete, you can create a new application using (this may take a few minutes):
-```bash
+{% highlight bash %}
 create-react-app hello-world
-```
+{% endhighlight %}
 
 And run the application and see it in your browser using:
-```bash
+{% highlight bash %}
 cd hello-world
 npm start
-```
+{% endhighlight %}
 
 <h4>Vue</h4>
 Vue [installation](https://vuejs.org/v2/guide/installation.html). View can be installed generally or with the CLI.
 
 General installation
-```bash
+{% highlight bash %}
 npm install vue
-```
+{% endhighlight %}
 CLI Installation
-```bash
+{% highlight bash %}
 npm install -g vue-cli
-```
+{% endhighlight %}
 
 Creating a new application via the CLI is done by running the installation wizard. It will take you through several steps to configure the application:
 (Note: this example uses the webpack template, other templates are also available and can be found [here](https://github.com/vuejs-templates))
-```bash
+{% highlight bash %}
 vue init webpack my-project
 cd my-project
 npm install
-```
+{% endhighlight %}
 
 Run the application and see it in your browser using:
-```bash
+{% highlight bash %}
 npm run dev
-```
+{% endhighlight %}
 
 <h4>Conclusion</h4>
 All of the global installations, and creation of the first application are pretty quick (a few minutes). Also, all of the created applications are runnable, and ready for you to develop your own application.
