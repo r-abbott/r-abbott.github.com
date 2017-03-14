@@ -125,4 +125,4 @@ npm run dev
 {% endhighlight %}
 
 <h4>Conclusion</h4>
-All of the global installations, and creation of the first application are pretty quick (a few minutes). Also, all of the created applications are runnable, and ready for you to develop your own application.
+All of the global installations and creation of the first application are pretty quick (a few minutes). They are also very comparable when installing using a CLI, with the steps being straightforward and simple, and abstracting all the heavy lifting away from the user. Also, all of the created applications are runnable (which I think is very important to get right, as people become frustrated when things do not work right away), and ready for you to develop your own application.
