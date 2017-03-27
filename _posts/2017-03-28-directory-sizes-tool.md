@@ -16,24 +16,27 @@ So, I created one!
 
 When first running the application, it will ask for a drive.
 
-<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/FirstOpen.png" title="first run view"/>
+<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/FirstOpen.png?raw=true" title="first run view"/>
 
 It will read the drive, save the compiled data to disk, and display the root directory with a list of subdirectories and their sizes.
 
-<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/InitialRead.png" title="root directory view"/>
+<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/InitialRead.png?raw=true" title="root directory view"/>
 
 - You can also navigate to subdirectories:
 
-<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/cd.png" title="cd example"/>
+<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/cd.png?raw=true" title="cd example"/>
 
 - discover large directories:
-<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/discover.png" title="discover example"/>
+
+<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/discover.png?raw=true" title="discover example"/>
 
 - find directories that are greater than a size:
-<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/greater.png" title="greater example"/>
+
+<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/greater.png?raw=true" title="greater example"/>
 
 - and open the directories in Windows Explorer:
-<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/open.png" title="open example"/>
+
+<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/open.png?raw=true" title="open example"/>
 
 I've personally used the tool to find huge picture directories, random phone backup directories, and even some games I had forgotten about.
 
