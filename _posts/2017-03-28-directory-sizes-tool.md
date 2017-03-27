@@ -12,28 +12,28 @@ So, I created one!
 
 [Directory Sizes Tool](https://github.com/r-abbott/DirectorySizesTool) is a simple tool that scans a drive, compiles all the directory sizes, and displays them in a format that helps you quickly see the large ones.
 
--- Quick Walkthrough --
+<h3>Quick Walkthrough</h3>
 
 When first running the application, it will ask for a drive.
 
-<img src="./screenshots/FirstOpen.png" title="first run view"/>
+<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/FirstOpen.png" title="first run view"/>
 
 It will read the drive, save the compiled data to disk, and display the root directory with a list of subdirectories and their sizes.
 
-<img src="./screenshots/InitialRead.png" title="root directory view"/>
+<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/InitialRead.png" title="root directory view"/>
 
-You can also navigate to subdirectories:
+- You can also navigate to subdirectories:
 
-<img src="./screenshots/cd.png" title="cd example"/>
+<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/cd.png" title="cd example"/>
 
-discover large directories:
-<img src="./screenshots/discover.png" title="discover example"/>
+- discover large directories:
+<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/discover.png" title="discover example"/>
 
-find directories that are greater than a size:
-<img src="./screenshots/greater.png" title="greater example"/>
+- find directories that are greater than a size:
+<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/greater.png" title="greater example"/>
 
-and open the directories in Windows Explorer:
-<img src="./screenshots/open.png" title="open example"/>
+- and open the directories in Windows Explorer:
+<img src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/open.png" title="open example"/>
 
 I've personally used the tool to find huge picture directories, random phone backup directories, and even some games I had forgotten about.
 
