@@ -18,27 +18,37 @@ So, I created one!
 
 When first running the application, it will ask for a drive.
 
-<img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/FirstOpen.png?raw=true" title="first run view"/>
+<a href="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/FirstOpen.png">
+    <img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/FirstOpen.png?raw=true" title="first run view"/>
+</a>
 
 It will read the drive, save the compiled data to disk, and display the root directory with a list of subdirectories and their sizes.
 
-<img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/InitialRead.png?raw=true" title="root directory view"/>
+<a href="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/InitialRead.png">
+    <img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/InitialRead.png?raw=true" title="root directory view"/>
+</a>
 
 - You can also navigate to subdirectories:
 
-<img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/cd.png?raw=true" title="cd example"/>
+<a href="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/cd.png">
+    <img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/cd.png?raw=true" title="cd example"/>
+</a>
 
 - discover large directories:
-
-<img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/discover.png?raw=true" title="discover example"/>
+<a href="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/discover.png">
+    <img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/discover.png?raw=true" title="discover example"/>
+</a>
 
 - find directories that are greater than a size:
-
-<img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/greater.png?raw=true" title="greater example"/>
+<a href="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/greater.png">
+    <img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/greater.png?raw=true" title="greater example"/>
+</a>
 
 - and open the directories in Windows Explorer:
 
-<img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/open.png?raw=true" title="open example"/>
+<a href="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/open.png">
+    <img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/open.png?raw=true" title="open example"/>
+</a>
 
 I've personally used the tool to find huge picture directories, random phone backup directories, and even some games I had forgotten about.
 
