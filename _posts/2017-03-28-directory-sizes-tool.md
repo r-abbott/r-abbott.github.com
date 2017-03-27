@@ -35,11 +35,13 @@ It will read the drive, save the compiled data to disk, and display the root dir
 </a>
 
 - discover large directories:
+
 <a href="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/discover.png">
     <img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/discover.png?raw=true" title="discover example"/>
 </a>
 
 - find directories that are greater than a size:
+
 <a href="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/greater.png">
     <img style="width: 820px;" src="https://github.com/r-abbott/DirectorySizesTool/blob/master/screenshots/greater.png?raw=true" title="greater example"/>
 </a>
